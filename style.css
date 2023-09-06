@@ -1,8 +1,9 @@
 body {
-    background: rgb(192, 48, 48);
+    background: rgb(255, 146, 146);
     color: rbg(45, 45, 45);
     padding: 10px;
-    font-family: arial;
+    font-family: 'Courier New', Courier, monospace;
+     ;
 }
 #all-contents {
     max-width: 800px;
@@ -11,7 +12,7 @@ body {
 
 /* navigation menu */
 nav {
-    background: rgb(9, 3, 92);
+    background: rgb(137, 192, 100);
         margin: 0 auto;
         margin-bottom: 20px;
         display: flex;
@@ -21,7 +22,7 @@ nav {
 h1 {
     display: flex;
     align-items: center;
-    color: #ff6207;
+    color: #f4ffdb;
     flex: 1;
     margin: 0;
 }
@@ -39,9 +40,9 @@ a {
 
 /* main container area beneath menu */
 main {
-    background: rgb(251, 255, 201);
+    background: rgb(255, 255, 255);
     display: flex;
-    border-radius: 10px 100px / 120px;
+    border-radius: 30px;
 }
 .sidebar {
     margin-right: 25px;
@@ -58,9 +59,9 @@ main {
 
 /* portfolio styles */
 #interests {
-    border: 4px rgb(255, 96, 96) ridge;
+    border: 4px rgb(255, 195, 195) ridge;
     padding: 8px;
-    border-radius: 10px 100px / 120px;
+    border-radius: 30px;
 }
 h2, h3 {
     margin: 0px;
