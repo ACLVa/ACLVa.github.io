@@ -56,13 +56,20 @@ main {
     padding: 15px;
 
 }
-
+#name {
+    text-align: center;
+}
 /* portfolio styles */
 #interests {
     border: 4px rgb(255, 195, 195) ridge;
     padding: 8px;
     border-radius: 30px;
+    margin-right: 15px;
+    margin-top: 35px;
 }
 h2, h3 {
     margin: 0px;
+}
+#titleinterest {
+    text-align: center;
 }
