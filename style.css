@@ -42,7 +42,6 @@ main {
     background: rgb(255, 255, 255);
     display: flex;
     border-radius: 30px;
-    width: 800px;
     margin: auto;
 }
 .sidebar {
@@ -55,7 +54,6 @@ main {
 .content {
     flex: 1;
     padding: 15px;
-    width: fit-content;
 }
 #name {
     text-align: center;
