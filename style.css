@@ -3,7 +3,6 @@ body {
     color: rbg(45, 45, 45);
     padding: 10px;
     font-family: 'Courier New', Courier, monospace;
-
 }
 #all-contents {
     max-width: 800px;
@@ -65,7 +64,7 @@ main {
 #interests {
     border: 4px rgb(255, 195, 195) ridge;
     padding: 8px;
-    border-radius: 0px;
+    border-radius: 30px;
     margin-right: 15px;
     margin-top: 35px;
 }
