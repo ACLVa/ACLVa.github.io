@@ -72,3 +72,24 @@ h2, h3 {
 #titleinterest {
     text-align: center;
 }
+ /* portfolio styles */
+.content h1 {
+color: black;
+}
+#portfolio {
+list-style-type: "\1F338";
+padding-left: 0;
+}
+#portfolio li {
+background: #5572a7;
+padding: 10px;
+border-radius: 10px;
+margin-bottom: 10px;
+}
+#portfolio li:hover {
+background: #583b3b;
+}
+#portfolio a {
+text-decoration: underline rgb(255, 97, 97);
+color: #defd52;
+}
