@@ -3,6 +3,7 @@ body {
     color: rbg(45, 45, 45);
     padding: 10px;
     font-family: 'Courier New', Courier, monospace;
+    background-image: url(https://img1.picmix.com/output/stamp/normal/3/5/1/8/1578153_a6ecb.gif);
 }
 #all-contents {
     max-width: 800px;
@@ -29,8 +30,8 @@ h1 {
     list-style-image: none;
 }
 .nav-li {
-    display: inline-block;
-    padding: 0 10px;
+display: inline-block;
+padding: 0 10px;
 }
 a {
     text-decoration: none;
@@ -81,15 +82,16 @@ list-style-type: "\1F338";
 padding-left: 0;
 }
 #portfolio li {
-background: #5572a7;
+background: #ffdbe4;
 padding: 10px;
 border-radius: 10px;
 margin-bottom: 10px;
 }
 #portfolio li:hover {
-background: #583b3b;
+background: #cbacd1;
+
 }
 #portfolio a {
 text-decoration: underline rgb(255, 97, 97);
-color: #defd52;
+color: #6e7c2d;
 }
