@@ -95,3 +95,13 @@ background: #cbacd1;
 text-decoration: underline rgb(255, 97, 97);
 color: #6e7c2d;
 }
+/* special ids */
+#light  {
+    margin-top: 25%;
+    margin-left: 35%;
+    width: 200px;
+}
+#logan   {
+    margin-bottom: 40%;
+    width: 200px;
+}
