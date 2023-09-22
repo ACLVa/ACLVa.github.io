@@ -9,7 +9,6 @@ body {
     max-width: 800px;
     margin: auto;    
 }
-
 /* navigation menu */
 nav {
     background: rgb(137, 192, 100);
@@ -96,12 +95,22 @@ text-decoration: underline rgb(255, 97, 97);
 color: #6e7c2d;
 }
 /* special ids */
-#light  {
-    margin-top: 25%;
+#annabelle  {
+    margin-top: 20%;
     margin-left: 35%;
     width: 200px;
 }
 #logan   {
-    margin-bottom: 40%;
-    width: 200px;
+    margin-left: 10px;
+    width: 20px;
+}
+#logan:hover {
+    width: 5%;
+}
+#star   {
+    width: 20px;
+    margin-right: 10px;
+}
+#dango  {
+    width: 55px;
 }
