@@ -3,9 +3,13 @@ body {
 }
 
 canvas {
-  background-color: lightgray;
+  background-image: url("https://images6.alphacoders.com/875/875570.jpg");
+  background-size: 1400px;
 }
 
 img {
   display: none;
+}
+body  {
+  background: rgb(90, 21, 84);
 }
