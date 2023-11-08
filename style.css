@@ -32,6 +32,9 @@ h1 {
 display: inline-block;
 padding: 0 10px;
 }
+.nav-li :hover {
+    color: rgb(255, 255, 129);
+    }
 a {
     text-decoration: none;
     color: rgb(216, 255, 45);
@@ -114,3 +117,19 @@ color: #6e7c2d;
 #dango  {
     width: 55px;
 }
+/*PROJECT*/
+.movie   {
+    width: 200px;
+    height: 250px;
+    vertical-align: top;
+    transition: opacity 0.3s;
+    opacity: 1;
+}
+.movie:hover {
+    opacity: 0.5;
+}
+.img-wrapper {
+    display: inline-block;
+    background: #0000;
+}
+/*watch this video https://www.youtube.com/watch?v=hr4JiDr7Aec */
