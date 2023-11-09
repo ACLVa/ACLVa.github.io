@@ -132,6 +132,18 @@ color: #6e7c2d;
     display: inline-block;
     background: #0000;
 }
-#FNAF   {
-    position: ;
+#filmNav    {
+    background: rgb(0, 0, 0);
+}
+#filmBody   {
+    background: rgb(0, 0, 0);
+}
+#filmMain   {
+    background-image: url(https://static01.nyt.com/images/2023/07/19/opinion/19butler/19butler-videoSixteenByNine3000-v2.jpg);
+    background-size: 1700px;
+    border-radius: 0;
+}
+#filmh {
+    color: rgb(216, 255, 45);
+    font-size: xx-large;
 }
