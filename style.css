@@ -133,7 +133,7 @@ color: #6e7c2d;
     background: #0000;
 }
 #filmNav    {
-    background: rgb(0, 0, 0);
+    background: rgb(129, 9, 9);
 }
 #filmBody   {
     background: rgb(0, 0, 0);
@@ -146,4 +146,30 @@ color: #6e7c2d;
 #filmh {
     color: rgb(216, 255, 45);
     font-size: xx-large;
+}
+.image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .image-container img {
+    display: block;
+    
+  }
+  
+  .overlay-text {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: rgb(216, 255, 45);
+    opacity: 0;
+    padding: 10px 20px; 
+    font-size: 20px; 
+    font-weight: bold;
+    text-align: center;
+  }
+.overlay-text:hover {
+    transition: 1500ms;
+    opacity: 100%;
 }
