@@ -7,19 +7,23 @@
 	<style>
 		.box {
 			width: 70px;
-			height: 70px;
-			background-color: teal;
+			height: 70px; /*try to fix img bg	*/
+			background-image: url(https://cdn3d.iconscout.com/3d/premium/thumb/sparkle-8342452-6659873.png?f=webp);
+			background-color: rgb(207, 194, 73);
 			font-size: 300%;
 			text-align: center;
 			user-select: none;
 			display: block;
 			position: absolute;
 			top: 100px;
-			left: 670px;  /* <--- Change me! */
-			background-image: url();
+			left: 670px;  /* <--- Changed me! */
+			
+			
 		}
 		.board{
 			height: 100vh;
+			background-image: url(https://media.tenor.com/D_pIjflo9RgAAAAC/bubbles-fantasia.gif);
+			background-size: 100%;
 		}
 	</style>
 	<!-- 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
@@ -66,6 +70,8 @@
 			var positionX = 0;
 			var points = 0;
 			var speed = 10;
+			var positionY = ; // left off on challenge 2
+			var speedY = ;
 			/* 
 			This Function will be called 20 times/second. Each time it is called,
 			it should move the Box to a new location. If the box drifts off the screen
