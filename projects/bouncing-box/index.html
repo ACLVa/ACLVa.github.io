@@ -6,17 +6,21 @@
 	<script src="jquery.min.js"></script>
 	<style>
 		.box {
-			width: 70px;
-			height: 70px; /*try to fix img bg	*/
-			background-image: url(https://cdn3d.iconscout.com/3d/premium/thumb/sparkle-8342452-6659873.png?f=webp);
-			background-color: rgb(207, 194, 73);
+			width: 60px;
+			height: 60px;
+			background-image: url(https://deltadistributing.net/wp-content/uploads/2020/01/boardwalk-sponges-scouring-pads-bwkcs2-64_1000-2.jpg);
+			background-size: 100%;
+			font-family: cursive;
 			font-size: 300%;
+			color: rgb(136, 1, 91);
+			font-weight: bold;
 			text-align: center;
 			user-select: none;
 			display: block;
 			position: absolute;
 			top: 100px;
 			left: 670px;  /* <--- Changed me! */
+			
 			
 			
 		}
@@ -74,7 +78,6 @@
 			var positionY = 0; 
 			var speedY = 10;
 			var boardHeight = jQuery(window).height();
-			var randNum = Math.random() * 100; //challenge 3 random location
 			
 			/* 
 			This Function will be called 20 times/second. Each time it is called,
@@ -100,10 +103,6 @@
 					speedY = speedY * -1
 				}
 
-				//challenge 3
-				if (randNum > boardWidth) {
-					position
-				}
 			};
 
 			/* 
