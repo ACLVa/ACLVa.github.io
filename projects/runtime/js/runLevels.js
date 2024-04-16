@@ -21,9 +21,13 @@ var runLevels = function (window) {
     var hitZoneSize = 25;
     var damageFromObstacle = 10;
     var sawBladeHitZone = game.createObstacle(hitZoneSize, damageFromObstacle);
-    
-    
-
+    sawBladeHitZone.x = 500;
+    sawBladeHitZone.y = 350;
+    game.addGameItem(sawBladeHitZone);
+    var obstacleImage = draw.bitmap("img/sawblade.png");
+    sawBladeHitZone.addChild(obstacleImage);
+    obstacleImage.x = -25
+    obstacleImage.y = -25
     function startLevel() {
       // TODO 13 goes below here
 
