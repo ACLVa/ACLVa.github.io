@@ -98,8 +98,8 @@ var runLevels = function (window) {
 
     function startLevel() {
       // TODO 13 goes below here
-      var level = 
-
+      var level = levelData[currentLevel];
+      var levelObjects = ///13..
 
       //////////////////////////////////////////////
       // DO NOT EDIT CODE BELOW HERE

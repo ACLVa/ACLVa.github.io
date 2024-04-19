@@ -11,123 +11,61 @@ var makeLevelData = function (window) {
     // TODO 12: change the below data
     var levelData = [
       {
-        name: "SAW1",
+        name: "Saws",
         number: 1,
         speed: -3,
         gameItems: [
-          { type: "sawblade", x: 400, y: groundY },
-          { type: "sawblade", x: 600, y: groundY },
-          { type: "sawblade", x: 900, y: groundY },
+          { type: "sawOne", x: 400, y: groundY },
+          { type: "sawTwo", x: 600, y: groundY },
+          { type: "sawThree", x: 900, y: groundY },
         ],
       },
       {
-        name: "SAW2",
+        name: "Enemies",
         number: 2,
         speed: -3,
         gameItems: [
-          { type: "sawblade", x: 400, y: groundY },
-          { type: "sawblade", x: 600, y: groundY },
-          { type: "sawblade", x: 900, y: groundY },
+          { type: "enemyOne", x: 400, y: groundY },
+          { type: "enemyTwo", x: 600, y: groundY },
+          { type: "enemyThree", x: 900, y: groundY },
         ],
       },
       {
-        name: "SAW3",
+        name: "Rewards",
         number: 3,
         speed: -3,
         gameItems: [
-          { type: "sawblade", x: 400, y: groundY },
-          { type: "sawblade", x: 600, y: groundY },
-          { type: "sawblade", x: 900, y: groundY },
+          { type: "rewardOne", x: 400, y: groundY },
+          { type: "rewardTwo", x: 600, y: groundY },
+          { type: "rewardThree", x: 900, y: groundY },
         ],
       },
       {
-        name: "HP1",
+        name: "Enemies",
         number: 4,
         speed: -3,
         gameItems: [
-          { type: "health", x: 400, y: groundY },
-          { type: "health", x: 600, y: groundY },
-          { type: "health", x: 900, y: groundY },
+          { type: "enemyA", x: 400, y: groundY },
+          { type: "enemyB", x: 600, y: groundY },
+          { type: "enemyC", x: 900, y: groundY },
         ],
       },
       {
-        name: "HP2",
+        name: "Levels",
         number: 5,
         speed: -3,
         gameItems: [
-          { type: "health", x: 400, y: groundY },
-          { type: "health", x: 600, y: groundY },
-          { type: "health", x: 900, y: groundY },
+          { type: "levelOne", x: 400, y: groundY },
+          { type: "levelTwo", x: 600, y: groundY },
         ],
       },
       {
-        name: "HP3",
+        name: "Markers",
         number: 6,
         speed: -3,
         gameItems: [
-          { type: "health", x: 400, y: groundY },
-          { type: "health", x: 600, y: groundY },
-          { type: "health", x: 900, y: groundY },
-        ],
-      },
-      {
-        name: "E1",
-        number: 7,
-        speed: -3,
-        gameItems: [
-          { type: "enemy", x: 400, y: groundY },
-          { type: "enemy", x: 600, y: groundY },
-          { type: "enemy", x: 900, y: groundY },
-        ],
-      },
-      {
-        name: "E2",
-        number: 8,
-        speed: -3,
-        gameItems: [
-          { type: "enemy", x: 400, y: groundY },
-          { type: "enemy", x: 600, y: groundY },
-          { type: "enemy", x: 900, y: groundY },
-        ],
-      },
-      {
-        name: "E3",
-        number: 9,
-        speed: -3,
-        gameItems: [
-          { type: "enemy", x: 400, y: groundY },
-          { type: "enemy", x: 600, y: groundY },
-          { type: "enemy", x: 900, y: groundY },
-        ],
-      },
-      {
-        name: "LVL1",
-        number: 10,
-        speed: -3,
-        gameItems: [
-          { type: "level", x: 400, y: groundY },
-          { type: "level", x: 600, y: groundY },
-          { type: "level", x: 900, y: groundY },
-        ],
-      },
-      {
-        name: "LVL2",
-        number: 11,
-        speed: -3,
-        gameItems: [
-          { type: "level", x: 400, y: groundY },
-          { type: "level", x: 600, y: groundY },
-          { type: "level", x: 900, y: groundY },
-        ],
-      },
-      {
-        name: "EM",
-        number: 12,
-        speed: -3,
-        gameItems: [
-          { type: "marker", x: 400, y: groundY },
-          { type: "marker", x: 600, y: groundY },
-          { type: "marker", x: 900, y: groundY },
+          { type: "markerOne", x: 400, y: groundY },
+          { type: "markerTwo", x: 600, y: groundY },
         ],
       }
     ];
