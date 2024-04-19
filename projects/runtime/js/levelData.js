@@ -11,7 +11,7 @@ var makeLevelData = function (window) {
     // TODO 12: change the below data
     var levelData = [
       {
-        name: "Robot Romp",
+        name: "SAW1",
         number: 1,
         speed: -3,
         gameItems: [
@@ -21,7 +21,7 @@ var makeLevelData = function (window) {
         ],
       },
       {
-        name: "Robot Rampage",
+        name: "SAW2",
         number: 2,
         speed: -3,
         gameItems: [
@@ -30,6 +30,96 @@ var makeLevelData = function (window) {
           { type: "sawblade", x: 900, y: groundY },
         ],
       },
+      {
+        name: "SAW3",
+        number: 3,
+        speed: -3,
+        gameItems: [
+          { type: "sawblade", x: 400, y: groundY },
+          { type: "sawblade", x: 600, y: groundY },
+          { type: "sawblade", x: 900, y: groundY },
+        ],
+      },
+      {
+        name: "HP1",
+        number: 4,
+        speed: -3,
+        gameItems: [
+          { type: "sawblade", x: 400, y: groundY },
+          { type: "sawblade", x: 600, y: groundY },
+          { type: "sawblade", x: 900, y: groundY },
+        ],
+      },
+      {
+        name: "HP2",
+        number: 5,
+        speed: -3,
+        gameItems: [
+          { type: "sawblade", x: 400, y: groundY },
+          { type: "sawblade", x: 600, y: groundY },
+          { type: "sawblade", x: 900, y: groundY },
+        ],
+      },
+      {
+        name: "HP3",
+        number: 6,
+        speed: -3,
+        gameItems: [
+          { type: "sawblade", x: 400, y: groundY },
+          { type: "sawblade", x: 600, y: groundY },
+          { type: "sawblade", x: 900, y: groundY },
+        ],
+      },
+      {
+        name: "E1",
+        number: 7,
+        speed: -3,
+        gameItems: [
+          { type: "sawblade", x: 400, y: groundY },
+          { type: "sawblade", x: 600, y: groundY },
+          { type: "sawblade", x: 900, y: groundY },
+        ],
+      },
+      {
+        name: "E2",
+        number: 8,
+        speed: -3,
+        gameItems: [
+          { type: "sawblade", x: 400, y: groundY },
+          { type: "sawblade", x: 600, y: groundY },
+          { type: "sawblade", x: 900, y: groundY },
+        ],
+      },
+      {
+        name: "E3",
+        number: 9,
+        speed: -3,
+        gameItems: [
+          { type: "sawblade", x: 400, y: groundY },
+          { type: "sawblade", x: 600, y: groundY },
+          { type: "sawblade", x: 900, y: groundY },
+        ],
+      },
+      {
+        name: "LVL2",
+        number: 10,
+        speed: -3,
+        gameItems: [
+          { type: "sawblade", x: 400, y: groundY },
+          { type: "sawblade", x: 600, y: groundY },
+          { type: "sawblade", x: 900, y: groundY },
+        ],
+      },
+      {
+        name: "EM",
+        number: 11,
+        speed: -3,
+        gameItems: [
+          { type: "sawblade", x: 400, y: groundY },
+          { type: "sawblade", x: 600, y: groundY },
+          { type: "sawblade", x: 900, y: groundY },
+        ],
+      }
     ];
     window.opspark.levelData = levelData;
   };
