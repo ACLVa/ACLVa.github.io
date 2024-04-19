@@ -69,17 +69,16 @@ var runLevels = function (window) {
       reward.velocityX = -2;
       reward.rotationalVelocity = 10;
       reward.onPlayerCollision = function(){
-      game.changeIntegrity(+100)
+      game.changeIntegrity(100)
       game.increaseScore(200)
-    }
-      reward.onPlayerCollision = function(){
-      game.increaseScore(100);
       reward.fadeOut();
     }
     }
     createReward(600, groundY - 100);
     createReward(999, groundY - 30);
     createReward(1200, groundY - 90);
+
+     
 
     function startLevel() {
       // TODO 13 goes below here
