@@ -99,7 +99,16 @@ var runLevels = function (window) {
     function startLevel() {
       // TODO 13 goes below here
       var level = levelData[currentLevel];
-      var levelObjects = ///13..
+      var levelObjects = levelData[4].gameItems
+      for (var i = 0; i < levelObjects.length; i++){
+        if(){
+
+        }
+        createSawblade(level.x, level.y)
+        createEnemy(level.x, level.y)
+        createReward(level.x, level.y)
+        createMarker(level.x, level.y)
+      }
 
       //////////////////////////////////////////////
       // DO NOT EDIT CODE BELOW HERE
