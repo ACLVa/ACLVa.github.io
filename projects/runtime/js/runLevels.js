@@ -98,7 +98,11 @@ var runLevels = function (window) {
 
     function startLevel() {
       // TODO 13 goes below here
-      
+      var level = levelData[currentLevel];
+      var levelObjects = levelData[3].gameItems[0];
+      for(var i = 0; i < levelObjects; i++){
+        
+      }
 
       //////////////////////////////////////////////
       // DO NOT EDIT CODE BELOW HERE

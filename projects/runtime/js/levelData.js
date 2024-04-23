@@ -15,9 +15,9 @@ var makeLevelData = function (window) {
         number: 1,
         speed: -3,
         gameItems: [
-          { type: "sawOne", x: 400, y: groundY },
-          { type: "sawTwo", x: 600, y: groundY },
-          { type: "sawThree", x: 900, y: groundY },
+          { type: "sawOne", x: 300, y: 350 },
+          { type: "sawTwo", x: 569, y: 400 },
+          { type: "sawThree", x: 999, y: 375 },
         ],
       },
       {
@@ -25,9 +25,9 @@ var makeLevelData = function (window) {
         number: 2,
         speed: -3,
         gameItems: [
-          { type: "enemyOne", x: 400, y: groundY },
-          { type: "enemyTwo", x: 600, y: groundY },
-          { type: "enemyThree", x: 900, y: groundY },
+          { type: "enemyOne", x: 400, y: groundY - 10 },
+          { type: "enemyTwo", x: 800, y: groundY - 100 },
+          { type: "enemyThree", x: 1200, y: groundY - 50 },
         ],
       },
       {
@@ -35,24 +35,14 @@ var makeLevelData = function (window) {
         number: 3,
         speed: -3,
         gameItems: [
-          { type: "rewardOne", x: 400, y: groundY },
-          { type: "rewardTwo", x: 600, y: groundY },
-          { type: "rewardThree", x: 900, y: groundY },
-        ],
-      },
-      {
-        name: "Enemies",
-        number: 4,
-        speed: -3,
-        gameItems: [
-          { type: "enemyA", x: 400, y: groundY },
-          { type: "enemyB", x: 600, y: groundY },
-          { type: "enemyC", x: 900, y: groundY },
+          { type: "rewardOne", x: 600, y: groundY - 100 },
+          { type: "rewardTwo", x: 999, y: groundY - 30 },
+          { type: "rewardThree", x: 1200, y: groundY - 90 },
         ],
       },
       {
         name: "Levels",
-        number: 5,
+        number: 4,
         speed: -3,
         gameItems: [
           { type: "levelOne", x: 400, y: groundY },
@@ -61,10 +51,10 @@ var makeLevelData = function (window) {
       },
       {
         name: "Markers",
-        number: 6,
+        number: 5,
         speed: -3,
         gameItems: [
-          { type: "markerOne", x: 400, y: groundY },
+          { type: "markerOne", x: 2500, y: groundY - 50 },
           { type: "markerTwo", x: 600, y: groundY },
         ],
       }
