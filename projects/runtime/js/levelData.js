@@ -11,53 +11,33 @@ var makeLevelData = function (window) {
     // TODO 12: change the below data
     var levelData = [
       {
-        name: "Saws",
+        name: "Level One",
         number: 1,
         speed: -3,
         gameItems: [
-          { type: "sawOne", x: 300, y: 350 },
-          { type: "sawTwo", x: 569, y: 400 },
-          { type: "sawThree", x: 999, y: 375 },
+          { type: "sawblade", x: 500, y: 300 },
+          { type: "sawblade", x: 700, y: 350 },
+          { type: "sawblade", x: 1100, y: 350 },
+          { type: "enemy", x: 1200, y: groundY - 50 },
+          { type: "reward", x: 999, y: groundY - 30 },
+          { type: "marker", x: 2500, y: groundY - 50 },
         ],
       },
       {
-        name: "Enemies",
+        name: "Level Two",
         number: 2,
         speed: -3,
         gameItems: [
-          { type: "enemyOne", x: 400, y: groundY - 10 },
-          { type: "enemyTwo", x: 800, y: groundY - 100 },
-          { type: "enemyThree", x: 1200, y: groundY - 50 },
+          { type: "sawblade", x: 300, y: 350 },
+          { type: "sawblade", x: 569, y: 400 },
+          { type: "sawblade", x: 569, y: 400 },
+          { type: "enemy", x: 400, y: groundY - 10 },
+          { type: "enemy", x: 800, y: groundY - 100 },
+          { type: "enemy", x: 1200, y: groundY - 50 },
+          { type: "reward", x: 1200, y: groundY - 90 },
+          { type: "marker", x: 600, y: groundY },
         ],
       },
-      {
-        name: "Rewards",
-        number: 3,
-        speed: -3,
-        gameItems: [
-          { type: "rewardOne", x: 600, y: groundY - 100 },
-          { type: "rewardTwo", x: 999, y: groundY - 30 },
-          { type: "rewardThree", x: 1200, y: groundY - 90 },
-        ],
-      },
-      {
-        name: "Levels",
-        number: 4,
-        speed: -3,
-        gameItems: [
-          { type: "levelOne", x: 400, y: groundY },
-          { type: "levelTwo", x: 600, y: groundY },
-        ],
-      },
-      {
-        name: "Markers",
-        number: 5,
-        speed: -3,
-        gameItems: [
-          { type: "markerOne", x: 2500, y: groundY - 50 },
-          { type: "markerTwo", x: 600, y: groundY },
-        ],
-      }
     ];
     window.opspark.levelData = levelData;
   };

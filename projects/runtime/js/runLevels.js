@@ -25,14 +25,15 @@ var runLevels = function (window) {
       sawBladeHitZone.x = x;
       sawBladeHitZone.y = y;
       game.addGameItem(sawBladeHitZone);
+      sawBladeHitZone.rotationalVelocity = 14
       var obstacleImage = draw.bitmap("img/sawblade.png");
       sawBladeHitZone.addChild(obstacleImage);
       obstacleImage.x = -25
       obstacleImage.y = -25
     }
-    createSawBlade(300, 350)
-    createSawBlade(569, 400)
-    createSawBlade(999, 375)
+    // createSawBlade(300, 350)
+    // createSawBlade(569, 400)
+    // createSawBlade(999, 375)
 
     function createEnemy(x, y){
       var enemy = game.createGameItem("enemy", 25);
@@ -43,8 +44,7 @@ var runLevels = function (window) {
       enemy.x = x;
       enemy.y = y;
       game.addGameItem(enemy);
-      enemy.velocityX = -2;
-      enemy.rotationalVelocity = 10;
+      enemy.velocityX = -7;
       enemy.onPlayerCollision = function(){
       game.changeIntegrity(-10)
     }
@@ -53,9 +53,9 @@ var runLevels = function (window) {
       enemy.shrink();
     }
     }
-    createEnemy(400, groundY - 10);
-    createEnemy(800, groundY - 100);
-    createEnemy(1200, groundY - 50);
+    // createEnemy(400, groundY - 10);
+    // createEnemy(800, groundY - 100);
+    // createEnemy(1200, groundY - 50);
 
     function createReward(x, y){
       var reward = game.createGameItem("reward", 25);
@@ -74,13 +74,13 @@ var runLevels = function (window) {
       reward.fadeOut();
     }
     }
-    createReward(600, groundY - 100);
-    createReward(999, groundY - 30);
-    createReward(1200, groundY - 90);
+    // createReward(600, groundY - 100);
+    // createReward(999, groundY - 30);
+    // createReward(1200, groundY - 90);
 
     function createMarker(x, y){
       var marker = game.createGameItem("marker", 25);
-      var endMarker = draw.circle(10, "black", "orange", 2)
+      var endMarker = draw.rect(100, 100, "black");
       endMarker.x = -25;
       endMarker.y = -25;
       marker.addChild(endMarker);
@@ -88,20 +88,36 @@ var runLevels = function (window) {
       marker.y = y;
       game.addGameItem(marker);
       marker.velocityX = -2;
-      reward.rotationalVelocity = 10;
       marker.onPlayerCollision = function(){
       game.increaseScore(500);
+      startLevel();
     }
+    marker.onProjectileCollision = function(){
+      marker.fadeOut()
       startLevel()
     }
-    createMarker(2500, groundY - 50)
+    }
+    // createMarker(2500, groundY - 50)
 
     function startLevel() {
       // TODO 13 goes below here
       var level = levelData[currentLevel];
-      var levelObjects = levelData[3].gameItems[0];
-      for(var i = 0; i < levelObjects; i++){
-        
+      var levelObjects = level.gameItems;
+
+      for(var i = 0; i < levelObjects.length; i++){
+        var object = levelObjects[i];
+        if (object.type === "sawblade") {
+          createSawBlade(object.x, object.y);
+        }
+        else if (object.type === "enemy") {
+          createEnemy(object.x, object.y);
+        }
+        else if (object.type === "reward") {
+          createReward(object.x, object.y);
+        }
+        else if (object.type === "marker") {
+          createMarker(object.x, object.y);
+        }
       }
 
       //////////////////////////////////////////////
