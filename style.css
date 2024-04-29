@@ -1,5 +1,5 @@
 body {
-    background: rgb(255, 146, 146);
+    background: rgb(16, 58, 47);
     color: rbg(45, 45, 45);
     padding: 10px;
     font-family: 'Courier New', Courier, monospace;
@@ -11,7 +11,7 @@ body {
 }
 /* navigation menu */
 nav {
-    background: rgb(137, 192, 100);
+    background: rgb(145, 46, 33);
         margin: 0 auto;
         margin-bottom: 20px;
         display: flex;
@@ -63,7 +63,7 @@ main {
 }
 /* portfolio styles */
 #interests {
-    border: 4px rgb(255, 195, 195) ridge;
+    border: 4px rgb(145, 46, 33) ridge;
     padding: 8px;
     border-radius: 30px;
     margin-right: 15px;
