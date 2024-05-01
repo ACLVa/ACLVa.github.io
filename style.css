@@ -84,7 +84,7 @@ list-style-type: "\1F338";
 padding-left: 0;
 }
 #portfolio li {
-background: #ffdbe4;
+background: rgb(255, 224, 220);
 padding: 10px;
 border-radius: 10px;
 margin-bottom: 10px;
@@ -94,7 +94,7 @@ background: #cbacd1;
 
 }
 #portfolio a {
-text-decoration: underline rgb(255, 97, 97);
+text-decoration: underline rgb(255, 119, 101);
 color: #6e7c2d;
 }
 /* special ids */
@@ -122,8 +122,6 @@ color: #6e7c2d;
     width: 200px;
     height: 250px;
     vertical-align: top;
-    transition: opacity 0.3s;
-    opacity: 1;
 }
 .img-wrapper {
     display: inline-block;
@@ -148,13 +146,12 @@ color: #6e7c2d;
 .image-container {
     position: relative;
     display: inline-block;
-  }
-  .image-container img {
+}
+.image-container img {
     display: block;
     
-  }
-  
-  .overlay-text {
+}
+.overlay-text {
     position: absolute;
     top: 50%; 
     left: 50%; 
@@ -165,7 +162,7 @@ color: #6e7c2d;
     font-size: 20px; 
     font-weight: bold;
     text-align: center;
-  }
+}
 .overlay-text:hover {
     transition: 300ms;
     opacity: 100%;
